@@ -308,3 +308,114 @@
   top: -30px;
   left: 5px;
 }
+
+/*etapa abaixo 3.3*/
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+
+  /* Adicione estilos */
+}
+
+.step {
+  flex-basis: auto;
+  width: 220px;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #000000;
+  padding: 60px 80px 60px 80px;
+}
+
+.footer__columns {
+  display: flex;
+  color: #ffffff;
+  align-items: flex-start;
+  padding-bottom: 100px;
+  gap: 80px;
+}
+
+.footer__column {
+  flex: auto;
+}
+
+.footer__column_content_hours {
+  flex: initial;
+}
+
+.footer__column_content_social {
+  flex: initial;
+}
+
+.footer__logo {
+  display: flex;
+}
+
+.footer__column-heading {
+  margin: 0 0 20px 0;
+}
+
+.footer__list {
+  /* O código abaixo remove os estilos do navegador padrão para listas */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  margin-bottom: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.footer__copyright {
+  color: #ffffff;
+}
