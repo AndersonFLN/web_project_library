@@ -414,7 +414,7 @@
   color: white;
   text-decoration: none;
   align-items: center;
-  column-gap: revert-layer;
+  column-gap: normal;
 }
 
 .footer__social-icon {
