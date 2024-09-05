@@ -337,8 +337,7 @@
 }
 
 .step {
-  flex-basis: auto;
-  width: 220px;
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -360,7 +359,7 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #000000;
+  background-color: #1f1f1f;
   padding: 60px 80px 60px 80px;
 }
 
@@ -378,14 +377,18 @@
 
 .footer__column_content_hours {
   flex: initial;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
   flex: initial;
+  margin-left: 80px;
 }
 
 .footer__logo {
   display: flex;
+  width: 58px;
+  height: 80px;
 }
 
 .footer__column-heading {
@@ -406,8 +409,10 @@
 }
 
 .footer__column-link {
+  display: flex;
   color: white;
   text-decoration: none;
+  align-items: center;
 }
 
 .footer__social-icon {
@@ -418,4 +423,5 @@
 
 .footer__copyright {
   color: #ffffff;
+  margin-top: 100px;
 }
